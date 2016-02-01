@@ -22,3 +22,13 @@
 .navbar-right {
   background-color: #c1bdbd; 
 }
+
+.navbar-default .navbar-nav>li>a {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;  
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  background-color: #f4f4f4; 
+}
