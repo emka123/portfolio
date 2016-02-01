@@ -1,0 +1,24 @@
+#begin {
+  background-color: #d1cfcf; 
+  height: 52px;
+  color: red;
+}
+
+.navbar-default {
+  background-image: none;
+  background-color: #dbd9d9;  
+  border-color: transparent;
+  border-radius: 0px;
+  height: 52px;
+  width: 100%;
+}
+  
+.navbar-default .navbar-brand {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;  
+}
+
+.navbar-right {
+  background-color: #c1bdbd; 
+}
