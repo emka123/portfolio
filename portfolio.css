@@ -34,32 +34,31 @@
 }
 
 #properties {
-    text-align: center;
-    text-transform: uppercase;
-    font-color: #152125;
-    font-weight: bold;
- 
-    background-color: #bcb8ad; 
+  text-align: center;
+  text-transform: uppercase;
+  font-color: #152125;
+  font-weight: bold;
+  background-color: #bcb8ad; 
 }
   
 .banner-social-buttons {
-    float: center;
-    list-style-type:none;
-    padding-top: 60px;
+  float: center;
+  list-style-type:none;
+  padding-top: 60px;
   margin: 0px 0px 0px 130px;
+
 }
 
 .banner-social-buttons li {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .banner-social-buttons li a {
-    width: 200px;  
+  width: 200px;  
   text-align: left;  
 }
 
-#about {
-  
+#about { 
   background-color: #e5e3e3;
   padding-top: 20px;
   padding-bottom: 40px; 
@@ -69,7 +68,6 @@
   width: 50%;
   margin-left: 150px;
 }
-
 
 #portfolio {
   padding-top: 30px;
@@ -87,4 +85,10 @@
 #portfolio img {
   height: 200px;
   width: 180px; 
+}
+
+.btn-default-custom {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
 }
