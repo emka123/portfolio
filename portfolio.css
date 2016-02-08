@@ -39,8 +39,14 @@
   font-color: #152125;
   font-weight: bold;
   background-color: #bcb8ad; 
+   
 }
-  
+
+#properties .jumbotron {
+  margin-bottom: 0px;
+}
+
+
 .banner-social-buttons {
   float: center;
   list-style-type:none;
@@ -60,7 +66,7 @@
 
 #about { 
   background-color: #e5e3e3;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 40px; 
 }
   
