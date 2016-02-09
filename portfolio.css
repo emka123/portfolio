@@ -98,3 +98,35 @@
     background-color: #fff;
     border-color: #ccc;
 }
+
+.svg-wrapper {
+  margin: 0 0 0 130px;
+  top: 50%;
+ }
+
+.shape {
+  fill: transparent;
+  stroke-dasharray: 236 540;
+  stroke-dashoffset: -403;
+  stroke-width: 6px;
+  stroke: black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;  
+}
+
+.text {
+  color: black;
+  font-family: 'Roboto Condensed';
+  font-size: 22px;
+  letter-spacing: 8px;
+  line-height: 32px;
+  position: relative;
+  top: -48px;
+  text-transform: uppercase;
+  padding-left:15px;
+}
+
+.svg-wrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
+}
