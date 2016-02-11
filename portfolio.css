@@ -99,6 +99,12 @@
     border-color: #ccc;
 }
 
+.btn-default-custom:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
 .svg-wrapper {
   margin: 0 0 0 130px;
   top: 50%;
@@ -129,4 +135,22 @@
   stroke-width: 2px;
   stroke-dashoffset: 0;
   stroke-dasharray: 760;
+}
+
+#portfolio {
+  padding-top: 30px;
+  text-align: center;
+  background-color: #EEEEEE;
+  padding-bottom: 90px; 
+}
+
+#portfolio p {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 40px;  
+}
+
+#portfolio img {
+  height: 200px;
+  width: 180px;  
 }
