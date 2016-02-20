@@ -37,14 +37,31 @@
   text-transform: uppercase;
   font-color: #152125;
   font-weight: bold;
-  background-color: #bcb8ad; 
-   
+  background-image: -webkit-gradient(
+  linear,
+  right top,
+  right top,
+  color-stop(0.25, #A982BD),
+  color-stop(0.73, #5B397D)
+  );
+background-image: -o-linear-gradient(right top, #A982BD 25%, #5B397D 73%);
+background-image: -moz-linear-gradient(right top, #A982BD 25%, #5B397D 73%);
+background-image: -webkit-linear-gradient(right top, #A982BD 25%, #5B397D 73%);
+background-image: -ms-linear-gradient(right top, #A982BD 25%, #5B397D 73%);
+background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);  
 }
 
-#properties .jumbotron {
-  margin-bottom: 0px;
+#properties h1 {
+  margin-top: 48px;
+  margin-bottom: 25px;
+  font-size: 63px;
+  color: black;
 }
 
+.intro-social-buttons {
+  padding-top: 24px;
+  color: black;
+}
 
 .banner-social-buttons {
   float: center;
@@ -96,12 +113,14 @@
     color: #333;
     background-color: #fff;
     border-color: #ccc;
+    border-radius: 20px; 
 }
 
 .btn-default-custom:hover {
-    color: #333;
-    background-color: #e6e6e6;
-    border-color: #adadad;
+  background-color: #430D60;
+  color: black;
+  font-weight: bold;
+  border-color: #1C012B;
 }
 
 .svg-wrapper {
