@@ -1,12 +1,13 @@
 #navigation {
   height: 50px;
+
 }
 
 .navbar-default .navbar-brand {
   color: black;
   text-transform: uppercase;
   font-weight: bold;
-   border-radius: 0px;  
+  border-radius: 0px;  
 }
 
 .navbar-default .navbar-brand:hover {
@@ -16,6 +17,7 @@
 .navbar {
   border-radius: 0px;
   background-color: #9884AD;
+  background-image: none;
   border: none;
 }
      
