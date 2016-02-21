@@ -246,6 +246,7 @@ background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);
   text-transform: uppercase;
   font-size: 30px;
   line-height: 40px;
+  padding-bottom: 40px;
 }
 
 #contact .btn-lg:hover {
@@ -265,20 +266,27 @@ background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);
   border-color: black;
 }
 
- 
-
 .btn-custom {
   margin-left: 80px;
   background-image: none;
   color: black;
   border-color: black;
+
   background-color: #a39f92;
   width: 160px;
   height: 45px;
   font-size: 18px;
 }
 
-.btn-custom:hover {
+.btn-custom:hover, .btn-custom:hover  {
+  color: black;
+  border-color: black;
+  background-color: #efeadc;
+  font-weight: bold;
+  border-width: 2px;
+}
+
+.btn-custom:focus {
   color: black;
   border-color: black;
   background-color: #efeadc;
@@ -296,6 +304,12 @@ button {
 .form-control:focus {
   border-color: black;
 }
+
+.bigicon {
+    font-size: 35px;
+    color: black;
+}
+
 @media only screen and (max-width: 768px) {
   #properties {
     height: 550px;
