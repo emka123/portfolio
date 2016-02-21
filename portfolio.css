@@ -118,26 +118,81 @@ background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);
 #portfolio {
   padding-top: 30px;
   text-align: center;
-  background-color: #EEEEEE;
+  background-color: #C1B4CE;
   padding-bottom: 90px;  
 }
 
-#portfolio p {
+#portfolio p:nth-child(1) {
   font-size: 30px;
   text-align: center;
-  padding-bottom: 40px;  
+  padding-bottom: 40px; 
+  color: black;  
+}
+ 
+.look-second img {   
+  height: 200px;
+  width: 180px;  
 }
 
-#portfolio img {
-  height: 200px;
-  width: 180px; 
+.look-second {
+  padding-top: 60px;
 }
+
+.view view-first {
+  width: 150px;
+}
+
+.view {
+  height: 300px;
+  margin: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.view img {
+  text-decoration: none;
+  position: relative;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+}
+ 
+ .view-first .description {
+  position:relative;
+  padding-top:30px;
+  left:0px;
+  visibility:hidden;
+  transition-delay: 0.5s;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: 'Roboto Condensed';
+}
+
+.view-first:hover .description {
+  visibility:visible;
+  text-decoration: none;
+}
+
+.view-first img { 
+  transition: all 0.2s linear; 
+}
+  
+.view-first:hover img { 
+  transform: scale(1.1); 
+} 
 
 .btn-default-custom {
-    color: #333;
-    background-color: #fff;
-    border-color: #ccc;
-    border-radius: 20px; 
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  border-radius: 20px; 
 }
 
 .btn-default-custom:hover {
