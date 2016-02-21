@@ -25,6 +25,10 @@
   border: none;
 }
 
+.navbar-default .navbar-collapse {
+  border-color: #9884AD;
+}
+
 .navbar-default .navbar-toggle:hover {
     background-color: #85609F;
 }
