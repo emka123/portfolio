@@ -150,10 +150,6 @@ background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);
 
 .view img {
   position: relative;
-  border-color: #1C012B;
-  border-width: 5px;
-
-
 }
 
 .sticky {
@@ -161,7 +157,7 @@ background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);
   width: 100%;
   left: 0;
   top: 0;
-  z-index: 100;
+  z-index: 999;
   border-top: 0;
 }
  
@@ -252,15 +248,54 @@ background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);
   line-height: 40px;
 }
 
-#contact .btn:hover {
+#contact .btn-lg:hover {
   color: black;
   border: 2px outset rgba(0, 0, 0, 0.9);
-  background-color: #9b9992;
+  background-color: #9884AD;
   transform: scale(1.1);
   transition: 0.4s;
   letter-spacing: 2px;
+  font-weight: bold;
 }
 
+#contact .btn-lg {
+  background-color: #eee;
+  background-image: none;
+  color: black;
+  border-color: black;
+}
+
+ 
+
+.btn-custom {
+  margin-left: 80px;
+  background-image: none;
+  color: black;
+  border-color: black;
+  background-color: #a39f92;
+  width: 160px;
+  height: 45px;
+  font-size: 18px;
+}
+
+.btn-custom:hover {
+  color: black;
+  border-color: black;
+  background-color: #efeadc;
+  font-weight: bold;
+}
+
+button {
+  margin-left: 80px;
+  background-image: none;
+  color: black;
+  border-color: black;
+}
+
+
+.form-control:focus {
+  border-color: black;
+}
 @media only screen and (max-width: 768px) {
   #properties {
     height: 550px;
