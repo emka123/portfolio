@@ -1,6 +1,5 @@
 #navigation {
   height: 50px;
-
 }
 
 .navbar-default .navbar-brand {
@@ -11,7 +10,23 @@
 }
 
 .navbar-default .navbar-brand:hover {
-  color: #430D60;  
+  color: #5b397d;  
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #9884AD;
+}
+
+.navbar-toggle {
+  background-color: #430D60;
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #85609F;
 }
 
 .navbar {
