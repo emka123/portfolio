@@ -7,7 +7,7 @@ $(document).ready(function() {
         return false;
     });
     $('.btn-custom').click(function() {
-    	alert("hello");
+    	alert("It can't work - it use only html&css :) Please send me e-mail: magdalena.pal90@gmail.com");
     });
 });
 
