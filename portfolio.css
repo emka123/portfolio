@@ -145,13 +145,15 @@ background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);
 .view {
   height: 300px;
   margin: 10px;
-  text-decoration: none;
   text-align: center;
 }
 
 .view img {
-  text-decoration: none;
   position: relative;
+  border-color: #1C012B;
+  border-width: 5px;
+
+
 }
 
 .sticky {
@@ -163,7 +165,7 @@ background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);
   border-top: 0;
 }
  
- .view-first .description {
+.view-first .description {
   position:relative;
   padding-top:30px;
   left:0px;
@@ -171,8 +173,8 @@ background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);
   transition-delay: 0.5s;
   text-decoration: none;
   color: black;
-  font-size: 20px;
-  font-family: 'Roboto Condensed';
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .view-first:hover .description {
@@ -182,6 +184,7 @@ background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);
 
 .view-first img { 
   transition: all 0.2s linear; 
+
 }
   
 .view-first:hover img { 
