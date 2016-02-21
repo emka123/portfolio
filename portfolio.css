@@ -250,10 +250,39 @@ background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);
 }
 
 #contact .btn:hover {
-    color: black;
-    border: 2px outset rgba(0, 0, 0, 0.9);
-    background-color: #9b9992;
-    transform: scale(1.1);
-    transition: 0.4s;
-    letter-spacing: 2px;
+  color: black;
+  border: 2px outset rgba(0, 0, 0, 0.9);
+  background-color: #9b9992;
+  transform: scale(1.1);
+  transition: 0.4s;
+  letter-spacing: 2px;
 }
+
+@media only screen and (max-width: 768px) {
+  #properties {
+    height: 550px;
+  }
+  
+  .intro-social-buttons li {
+    padding-bottom: 15px;
+    display: block;
+  }  
+}  
+
+@media only screen and (min-width: 768px) {
+  #properties {
+    height: 340px;
+  }
+}  
+  
+@media only screen and (min-width: 992px) {
+/*   body {
+      background-color: lightblue;
+  } */
+}    
+  
+@media only screen and (min-width: 1200px) {
+/*   body {
+      background-color: lightblue;
+  } */
+}  
