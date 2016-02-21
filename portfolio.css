@@ -210,7 +210,7 @@ background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);
 }
 
 .svg-wrapper {
-  margin: 0 0 0 130px;
+  text-align: center;
   top: 50%;
  }
 
