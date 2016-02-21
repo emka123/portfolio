@@ -192,6 +192,9 @@ background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);
   background-color: #fff;
   border-color: #ccc;
   border-radius: 20px; 
+  border-color: white;
+  border-width: 1px;
+  width: 170px;
 }
 
 .btn-default-custom:hover {
@@ -199,6 +202,7 @@ background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);
   color: black;
   font-weight: bold;
   border-color: #1C012B;
+  border-width: 1px;
 }
 
 .svg-wrapper {
@@ -251,12 +255,13 @@ background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);
 
 #contact .btn-lg:hover {
   color: black;
-  border: 2px outset rgba(0, 0, 0, 0.9);
+  border: 1px outset rgba(0, 0, 0, 0.9);
   background-color: #9884AD;
   transform: scale(1.1);
   transition: 0.4s;
   letter-spacing: 2px;
   font-weight: bold;
+  text-shadow: none;
 }
 
 #contact .btn-lg {
@@ -323,7 +328,7 @@ button {
 
 @media only screen and (min-width: 768px) {
   #properties {
-    height: 340px;
+    height: 280px;
   }
 }  
   
