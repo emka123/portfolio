@@ -9,6 +9,10 @@ $(document).ready(function() {
     $('.btn-custom').click(function() {
     	alert("It can't work - it use only html&css :) Please send me e-mail: magdalena.pal90@gmail.com");
     });
+
+    $('.nav a').click(function() {
+        $('.navbar-collapse').collapse('hide');
+    });
 });
 
 
