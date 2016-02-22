@@ -321,7 +321,7 @@ button {
 
 @media only screen and (max-width: 768px) {
   #properties {
-    height: 600px;
+    height: 560px;
   }
   
   .intro-social-buttons li {
