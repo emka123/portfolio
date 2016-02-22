@@ -328,6 +328,10 @@ button {
     padding-bottom: 15px;
     display: block;
   }  
+
+  #about img {
+    padding-top: 40px;
+  }
 }  
 
 @media only screen and (min-width: 768px) {
@@ -347,3 +351,4 @@ button {
       background-color: lightblue;
   } */
 }  
+
