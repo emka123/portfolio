@@ -30,7 +30,7 @@
 }
 
 .navbar-default .navbar-toggle:hover {
-    background-color: #85609F;
+  background-color: #85609F;
 }
 
 .navbar {
@@ -52,12 +52,12 @@
 }
 
 .sticky {
-    position: fixed;
-    width: 100%;
-    left: 0;
-    top: 0;
-    z-index: 100;
-    border-top: 0;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
 }
 
 #properties {
@@ -148,7 +148,7 @@ background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);
 
 .view {
   height: 300px;
-  margin: 10px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -176,6 +176,8 @@ background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);
   font-size: 14px;
   font-weight: bold;
 }
+
+ 
 
 .view-first:hover .description {
   visibility:visible;
@@ -329,6 +331,10 @@ button {
     display: block;
   }  
 
+  .banner-social-buttons {
+    margin: none;
+  }
+
   #about img {
     padding-top: 40px;
 
@@ -339,6 +345,8 @@ button {
     margin-top: 40px;
     vertical-align: none;
   }
+
+  
 }  
 
 @media only screen and (min-width: 768px) {
@@ -358,4 +366,5 @@ button {
       background-color: lightblue;
   } */
 }  
+
 
