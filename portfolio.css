@@ -148,7 +148,7 @@ background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);
 
 .view {
   height: 300px;
-  margin-bottom: 50px;
+ 
   text-align: center;
 }
 
@@ -346,12 +346,20 @@ button {
     vertical-align: none;
   }
 
+  .view-first {
+    padding-bottom: 30px;
+  }
+
   
 }  
 
 @media only screen and (min-width: 768px) {
   #properties {
     height: 280px;
+  }
+
+  .view-first {
+    padding-bottom: 30px;
   }
 }  
   
