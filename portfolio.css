@@ -95,8 +95,6 @@ background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);
   float: center;
   list-style-type:none;
   padding-top: 60px;
-  margin: 0px 0px 0px 130px;
-
 }
 
 .banner-social-buttons li {
@@ -350,7 +348,11 @@ button {
   .view-first {
     margin-bottom: 80px;
   }
-
+  .banner-social-buttons {
+    margin: 0px;
+    text-align: center;
+}  
+  
   
 }  
 
@@ -366,6 +368,9 @@ button {
   .look-second {
     margin-bottom: 60px;
   }
+
+  .banner-social-buttons {
+    margin: 0px 0px 0px 130px;
 
 }  
   
