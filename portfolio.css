@@ -138,10 +138,7 @@ background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);
   width: 180px;  
 }
 
-.look-second {
-  padding-top: 60px;
-}
-
+ 
 .view view-first {
   width: 150px;
 }
@@ -344,6 +341,10 @@ button {
   .look-second img {
     margin-top: 40px;
     vertical-align: none;
+  }
+
+  .look-second {
+    margin-top: 40px;
   }
 
   .view-first {
