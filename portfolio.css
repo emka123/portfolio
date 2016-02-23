@@ -326,10 +326,6 @@ button {
     display: block;
   }  
 
-  .banner-social-buttons {
-    margin: none;
-  }
-
   #about img {
     padding-top: 40px;
 
@@ -351,6 +347,7 @@ button {
   .banner-social-buttons {
     margin: 0px;
     text-align: center;
+    padding-left: 0px;
 }  
   
   
