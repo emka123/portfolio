@@ -94,7 +94,6 @@ background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);
 .banner-social-buttons {
   float: center;
   list-style-type:none;
-  padding-top: 60px;
 }
 
 .banner-social-buttons li {
@@ -273,7 +272,6 @@ background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);
 }
 
 .btn-custom {
-  margin-left: 80px;
   background-image: none;
   color: black;
   border-color: black;
@@ -300,12 +298,10 @@ background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);
 }
 
 button {
-  margin-left: 80px;
   background-image: none;
   color: black;
   border-color: black;
 }
-
 
 .form-control:focus {
   border-color: black;
@@ -328,9 +324,7 @@ button {
 
   #about img {
     padding-top: 40px;
-
   }
-
 
   .look-second img {
     margin-top: 40px;
@@ -341,17 +335,20 @@ button {
     margin-bottom: 60px;
   }
 
-  .view-first {
-    margin-bottom: 80px;
-  }
+  #portfolio .col-md-6:nth-child(1) .view-first {
+    margin-bottom: 180px;
+  } 
+
   .banner-social-buttons {
     margin: 0px;
     text-align: center;
-    padding-left: 0px;
-}  
-  
-  
-}  
+    padding-left: 0px; 
+  }    
+
+  .btn-custom {
+    margin-left: 0px;
+  }  
+}
 
 @media only screen and (min-width: 768px) {
   #properties {
@@ -368,8 +365,13 @@ button {
 
   .banner-social-buttons {
     margin: 0px 0px 0px 130px;
+    padding-top: 60px;
+  }
 
-}  
+  .btn-custom {
+    margin-left: 100px;
+  } 
+}
   
 @media only screen and (min-width: 992px) {
 /*   body {
