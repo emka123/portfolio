@@ -171,9 +171,7 @@ background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);
   font-weight: bold;
 }
 
- 
-
-.view-first:hover .description {
+ .view-first:hover .description {
   visibility:visible;
   text-decoration: none;
 }
@@ -275,7 +273,6 @@ background-image: linear-gradient(to right top, #A982BD 25%, #5B397D 73%);
   background-image: none;
   color: black;
   border-color: black;
-
   background-color: #a39f92;
   width: 160px;
   height: 45px;
@@ -308,8 +305,8 @@ button {
 }
 
 .bigicon {
-    font-size: 35px;
-    color: black;
+  font-size: 35px;
+  color: black;
 }
 
 @media only screen and (max-width: 768px) {
@@ -331,12 +328,16 @@ button {
     vertical-align: none;
   }
 
+  #portfolio {
+    padding-bottom: 0px;
+  }
+
   .look-second {
     margin-bottom: 60px;
   }
 
-  #portfolio .col-md-6:nth-child(1) .view-first {
-    margin-bottom: 180px;
+  .view-first {
+    margin-bottom: 80px;
   } 
 
   .banner-social-buttons {
