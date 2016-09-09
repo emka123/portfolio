@@ -39,6 +39,19 @@
   background-image: none;
   border: none;
 }
+.call-button {
+    background-color: #FF4949;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 270px;
+    color: #F7F7FA;
+    line-height: 1.2;
+    font-weight: bold;
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
      
 .navbar-default .navbar-nav>li>a {
   color: black;
